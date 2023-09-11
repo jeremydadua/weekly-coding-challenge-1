@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.innerWrap{
+    max-width: 1130px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.txtBold{
+    font-weight: 600 !important;
+}
+
+@media (min-width:768px){
+    .isSp{
+        display: none !important;
+    }
+}
+
+
+/*============================
+            TXT AREA
+============================*/
+
+.txtArea{
+    text-align: center;
+    padding-top: 88px;
+}
+
+.heading01{
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    font-weight: 200;
+    color: hsl(234, 12%, 34%);
+}
+
+.heading01 .txtBold{
+    margin-top: 14px;
+    font-size: 37px;
+}
+
+.subTxt{
+    margin-top: 24px;
+    line-height: 1.6;
+    color: hsl(229, 6%, 66%);
+}
+
+/*============================
+            BOX AREA
+============================*/
+
+.boxArea{
+    margin-top: 65px;
+}
+
+.baContentWrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:  140px 110px 30px 110px 140px;
+    grid-column-gap: 30px;
+}
+
+.baContent{
+    padding:32px 32px 30px;
+    border-radius: 3%;
+    background-color: #fff;
+    box-shadow: 6px 11px 20px 0px hsl(229deg 15.39% 85.29%);
+}
+
+.content01{
+    border-top: 4px solid hsl(180, 62%, 55%);
+    grid-column: 1/2;
+    grid-row: 2/5;
+}
+
+.content02{
+    border-top: 4px solid hsl(0, 78%, 62%);
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+
+.content03{
+    border-top: 4px solid hsl(34, 97%, 64%);
+    grid-column: 2/3;
+    grid-row: 4/6;
+}
+
+.content04{
+    border-top: 4px solid hsl(212, 86%, 64%);
+    grid-column: 3/4;
+    grid-row: 2/5;
+}
+
+.boxTtl{
+    font-size: 20px;
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);  
+}
+
+.boxSubTxt{
+    font-size: 13px;
+    line-height: 1.7;
+    margin-top: 16px;
+    color: hsl(229, 6%, 66%);
+}
+
+.boxVisual{
+    margin-top: 38px;
+    text-align: right;
+}
+
+
+/*==============
+    SP VIEW
+==============*/
+@media screen and (max-width: 767px){
+    .innerWrap{
+        margin: 0 auto;
+        padding: 0 32px;
+    }
+
+    .isPc{
+        display: none !important;
+    }
+
+    .txtArea{
+        padding-top: 90px;
+    }
+    
+    .heading01{
+        font-size: 24px;
+        font-weight: 200;
+        color: hsl(234, 12%, 34%);
+    }
+    
+    .heading01 .txtBold{
+        margin-top: 13px;
+        font-size: 24px;
+    }
+    
+    .subTxt{
+        margin-top: 24px;
+        line-height: 1.6;
+        color: hsl(229, 6%, 66%);
+        font-size: 15px;
+    }
+
+    .baContentWrap{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 22px;
+    }
+
+    .baContent{
+        padding:28px 27px 28px;
+        width: 100%;
+    }
+
+    .boxArea{
+        margin-top: 75px;
+        padding-bottom: 50px;
+
+    }
+    
+    .boxSubTxt{
+        margin-top: 10px;
+    }
+    
+    .boxVisual{
+        margin-top: 31px;
+        text-align: right;
+    }
+    .boxVisual img{
+        width: 22%;
+    }
+
+}

@@ -2,44 +2,64 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="stylesheet" href="/css/reset.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<script src="/js/jquery.matchHeight.js"></script>
+  <script src="/js/main.js"></script>
   <title>Frontend Mentor | Four card feature section</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-  
-  Reliable, efficient delivery
-  Powered by Technology
 
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
+	<div class="containerWrap">
+		<div class="innerWrap">
 
-  Supervisor
-  Monitors activity to identify project roadblocks
+			<div class="txtArea">
+				<h1 class="heading01">
+					Reliable, efficient delivery 
+					<span class="txtBold">Powered by Technology</span>
+				</h1>
+				<p class="subTxt">
+					Our Artificial Intelligence powered tools<br class="isSp"> use millions of project data<br class="isPc"> points to <br class="isSp">ensure that your project is successful
+				</p>
+			</div>
 
-  Team Builder
-  Scans our talent network to create the optimal team for your project
-
-  Karma
-  Regularly evaluates our talent to ensure quality
-
-  Calculator
-  Uses data from past projects to provide better delivery estimates
-
-  
-  <footer>
+			<div class="boxArea">
+				<div class="baContentWrap">
+					<div class="baContent content01">
+						<p class="boxTtl">Supervisor</p>
+						<p class="boxSubTxt">Monitors activity to identify project roadblocks</p>
+						<p class="boxVisual"><img src="/images/icon-supervisor.svg" alt=""></p>
+					</div>
+					<div class="baContent content02">
+						<p class="boxTtl">Team Builder</p>
+						<p class="boxSubTxt">Scans our talent network to create the optimal team for your project</p>
+						<p class="boxVisual"><img src="/images/icon-team-builder.svg" alt=""></p>
+					</div>
+					<div class="baContent content03">
+						<p class="boxTtl">Karma</p>
+						<p class="boxSubTxt">Regularly evaluates our talent to ensure quality</p>
+						<p class="boxVisual"><img src="/images/icon-karma.svg" alt=""></p>
+					</div>
+					<div class="baContent content04">
+						<p class="boxTtl">Calculator</p>
+						<p class="boxSubTxt">Uses data from past projects to provide better delivery estimates </p>
+						<p class="boxVisual"><img src="/images/icon-calculator.svg" alt=""></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  <!-- <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Your Name Here</a>.
     </p>
-  </footer>
+  </footer> -->
 </body>
 </html>
