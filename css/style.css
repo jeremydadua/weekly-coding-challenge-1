@@ -30,7 +30,7 @@ body{
             TXT AREA
 ============================*/
 
-.txtArea{
+.headingArea{
     text-align: center;
     padding-top: 88px;
 }
@@ -48,7 +48,7 @@ body{
     font-size: 37px;
 }
 
-.subTxt{
+.headingSubTxt{
     margin-top: 24px;
     line-height: 1.6;
     color: hsl(229, 6%, 66%);
@@ -132,7 +132,7 @@ body{
         display: none !important;
     }
 
-    .txtArea{
+    .headingArea{
         padding-top: 90px;
     }
     
@@ -147,7 +147,7 @@ body{
         font-size: 24px;
     }
     
-    .subTxt{
+    .headingSubTxt{
         margin-top: 24px;
         line-height: 1.6;
         color: hsl(229, 6%, 66%);
