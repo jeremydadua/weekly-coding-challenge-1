@@ -5,14 +5,14 @@
 }
 
 body{
-    font-family:'Poppins', sans-serif;
     font-size: 15px;
+    font-family:'Poppins', sans-serif;
 }
 
 .innerWrap{
-    max-width: 1130px;
     margin: 0 auto;
     padding: 0 10px;
+    max-width: 1130px;
 }
 
 .txtBold{
@@ -27,20 +27,17 @@ body{
 
 
 /*============================
-            TXT AREA
+        HEADING AREA
 ============================*/
-
-.headingArea{
-    text-align: center;
-    padding-top: 88px;
-}
 
 .heading01{
     display: flex;
-    flex-direction: column;
+    margin-top: 88px;
+    color: hsl(234, 12%, 34%);
     font-size: 36px;
     font-weight: 200;
-    color: hsl(234, 12%, 34%);
+    text-align: center;
+    flex-direction: column;
 }
 
 .heading01 .txtBold{
@@ -50,19 +47,20 @@ body{
 
 .headingSubTxt{
     margin-top: 24px;
-    line-height: 1.6;
     color: hsl(229, 6%, 66%);
+    text-align: center;
+    line-height: 1.6;
 }
 
 /*============================
-            BOX AREA
+        BOX CONTENT AREA
 ============================*/
 
-.boxArea{
+.boxContent{
     margin-top: 65px;
 }
 
-.baContentWrap{
+.boxContent{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows:  140px 110px 30px 110px 140px;
@@ -71,8 +69,8 @@ body{
 
 .baContent{
     padding:32px 32px 30px;
-    border-radius: 3%;
     background-color: #fff;
+    border-radius: 3%;
     box-shadow: 6px 11px 20px 0px hsl(229deg 15.39% 85.29%);
 }
 
@@ -101,16 +99,16 @@ body{
 }
 
 .boxTtl{
+    color: hsl(234, 12%, 34%);
     font-size: 20px;
-    font-weight: 600;
-    color: hsl(234, 12%, 34%);  
+    font-weight: 600;  
 }
 
 .boxSubTxt{
-    font-size: 13px;
-    line-height: 1.7;
     margin-top: 16px;
     color: hsl(229, 6%, 66%);
+    font-size: 13px;
+    line-height: 1.7;
 }
 
 .boxVisual{
@@ -131,15 +129,12 @@ body{
     .isPc{
         display: none !important;
     }
-
-    .headingArea{
-        padding-top: 90px;
-    }
     
     .heading01{
+        margin-top: 90px;
+        color: hsl(234, 12%, 34%);
         font-size: 24px;
         font-weight: 200;
-        color: hsl(234, 12%, 34%);
     }
     
     .heading01 .txtBold{
@@ -149,25 +144,21 @@ body{
     
     .headingSubTxt{
         margin-top: 24px;
-        line-height: 1.6;
         color: hsl(229, 6%, 66%);
         font-size: 15px;
+        line-height: 1.6;
     }
 
-    .baContentWrap{
+    .boxContent{
         display: flex;
+        margin-top: 75px;
+        padding-bottom: 50px;
         flex-direction: column;
         flex-wrap: wrap;
     }
 
     .baContent{
         width: 100%;
-    }
-
-    .boxArea{
-        margin-top: 75px;
-        padding-bottom: 50px;
-
     }
     
     .boxSubTxt{
@@ -188,18 +179,18 @@ body{
     }
     
     .content02{
-       padding:28px 27px 26px;
        margin-top: 25px;
+       padding:28px 27px 26px;
     }
     
     .content03{
-       padding:28px 27px 24px;
        margin-top: 23px;
+       padding:28px 27px 24px;
     }
     
     .content04{
-       padding:28px 27px 24px;
        margin-top: 24px;
+       padding:28px 27px 24px;
     }
 
 }
